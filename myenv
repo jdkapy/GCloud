@@ -1,0 +1,25 @@
+BUCKET=qwiklabs-gcp-8c388e9d740be2c4
+PROJECT_ID=$BUCKET
+DEVSHELL_PROJECT_ID=$BUCKET
+
+MYREGION=us-central1
+echo "http://ip4.me/"
+MYZONE=us-central1-a
+BROWSER_IP=139.47.85.80
+
+#APIKEY=AIzaSyALHf20PB71HxtrbkJyeNzHuTQlgOnNKfU
+
+
+alias l='ls -lrtpa'
+echo "BUCKET        [$BUCKET]"
+echo "PROJECT_ID    [$PROJECT_ID]"
+echo "MYREGION      [$MYREGION]"
+echo "MYZONE        [$MYZONE]"
+echo "BROWSER_IP    [$BROWSER_IP]"
+echo "APIKEY               [$APIKEY]"
+echo "DEVSHELL_PROJECT_ID               [$DEVSHELL_PROJECT_ID]"
+
+export DEVSHELL_PROJECT_ID 
+export BUCKET 
+export APIKEY
+export PS1="$BUCKET> "
