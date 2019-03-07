@@ -25,4 +25,4 @@ export APIKEY
 export PS1="$BUCKET> "
 
 mysqlInstance="qwiklabs-demo"
-alias mysqlClient= "gcloud sql connect $mysqlInstance --user=root"
+alias sqlcli='gcloud sql connect $mysqlInstance --user=root'
